@@ -8,7 +8,7 @@ import copy from '../public/icons/copy.svg';
 import user from '../public/icons/users.svg';
 import contacts from '../public/icons/contacts.svg';
 import learn1 from '../public/icons/learn1.svg';
-import play from '../public/icons/play.svg';
+import play from '../public/icons/Play.svg';
 import sun from '../public/icons/sun.svg';
 
 import { Switch } from 'antd';

@@ -8,14 +8,13 @@ import copy from '../public/icons/copy.svg';
 import user from '../public/icons/users.svg';
 import contacts from '../public/icons/contacts.svg';
 import learn1 from '../public/icons/learn1.svg';
-import play from '../public/icons/play.svg';
+import play from '../public/icons/Play.svg';
 import sun from '../public/icons/sun.svg';
 
 import styles from '../styles/Home.module.css';
 import { Switch } from 'antd';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-
 import { summaryIcon, Toggler } from '../public/Svg/Svg';
 import Graph from './Graph';
 import Card from './Card';
