@@ -17,9 +17,9 @@ export default function Graph() {
         borderAlign: 'inner',
         weight: 2,
         borderWidth: 0,
-        offset: -40,
+        // offset: -40,
         weight: 40,
-        spacing: -10,
+        spacing: -40,
         radius: 132,
         rotation: 5,
         cutoutPercentage: 70,
@@ -57,6 +57,14 @@ export default function Graph() {
         },
       },
     },
+
+    // tension: {
+    //   duration: 8000,
+    //   easing: 'linear',
+    //   from: 1,
+    //   to: 0,
+    //   loop: true,
+    // },
 
     // tension: {
     //   duration: 1000,
