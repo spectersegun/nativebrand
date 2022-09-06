@@ -21,7 +21,6 @@ export default function Graph() {
         weight: 40,
         spacing: -40,
         radius: 132,
-        rotation: 5,
         cutoutPercentage: 70,
         borderWidth: 0,
         fillStyle: '#8D08F5',

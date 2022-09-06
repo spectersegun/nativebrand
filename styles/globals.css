@@ -625,6 +625,10 @@ main .drawer {
     padding-top: 15px;
     padding-bottom: 10px;
   }
+  .card-holder .d-flex svg {
+    width: 30px;
+    height: 30px;
+  }
 }
 
 @media only screen and (max-width: 567px) {
