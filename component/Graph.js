@@ -10,7 +10,7 @@ export default function Graph() {
       {
         label: 'users gained',
         data: UserData.map(data => data.details),
-        backgroundColor: ['#8D08F5', '#3DBF91', '#1255B3', '#FF6600'],
+        // backgroundColor: ['#8D08F5', '#3DBF91', '#1255B3', '#FF6600'],
         borderColor: ['#8D08F5', '#3DBF91', '#1255B3', '#FF6600'],
         circumference: 320,
         borderJoinStyle: 'bevel',
@@ -23,6 +23,8 @@ export default function Graph() {
         radius: 132,
         rotation: 5,
         cutoutPercentage: 70,
+        borderWidth: 0,
+        fillStyle: '#8D08F5',
       },
     ],
   });
@@ -30,10 +32,10 @@ export default function Graph() {
   let options = {
     responsive: true,
     cutout: 98,
+    // cutoutPercentage: 70,
     borderRadius: 50,
     // outerStart: 70,
     clip: 40,
-    borderWidth: 40,
     hoverOffset: 0,
 
     plugins: {
