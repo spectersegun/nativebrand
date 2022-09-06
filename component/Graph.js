@@ -29,7 +29,7 @@ export default function Graph() {
 
   let options = {
     responsive: true,
-    cutout: 92,
+    cutout: 98,
     borderRadius: 50,
     // outerStart: 70,
     clip: 40,
@@ -54,7 +54,6 @@ export default function Graph() {
           },
         },
       },
-      //   cutout: 0,
     },
 
     // tension: {
