@@ -10,7 +10,7 @@ export default function Graph() {
       {
         label: 'users gained',
         data: UserData.map(data => data.details),
-        // backgroundColor: ['#8D08F5', '#3DBF91', '#1255B3', '#FF6600'],
+        backgroundColor: ['#8D08F5', '#3DBF91', '#1255B3', '#FF6600'],
         borderColor: ['#8D08F5', '#3DBF91', '#1255B3', '#FF6600'],
         circumference: 320,
         borderJoinStyle: 'bevel',

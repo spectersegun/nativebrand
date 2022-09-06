@@ -621,6 +621,10 @@ main .drawer {
   header .cross {
     right: 5px;
   }
+  thead tr th {
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
 }
 
 @media only screen and (max-width: 567px) {
