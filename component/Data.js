@@ -2,7 +2,7 @@ export const UserData = [
   {
     id: 1,
     year: 'Completed: $1.2m',
-    details: 80000,
+    details: 60000,
     userLost: 423,
   },
   {

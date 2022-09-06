@@ -39,7 +39,7 @@ export default function Graph() {
     plugins: {
       legend: {
         position: 'right',
-        // align: 'center',
+        align: 'center',
         display: true,
         labels: {
           color: 'rgba(0, 0, 0, 0.75)',
