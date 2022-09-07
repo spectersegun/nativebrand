@@ -40,7 +40,7 @@ export default function Main() {
 
         <Card />
         <section className="row section-two">
-          <div className="col-lg-6 d-none d-md-block">
+          <div className="col-lg-6 d-none d-md-block graphing">
             <div style={{ height: '100%' }}>
               <div className="table-wrapper summary-chart">
                 <div class="table-caption">
