@@ -30,7 +30,7 @@ export default function Graph() {
 
   let options = {
     responsive: true,
-    cutout: 98,
+    cutout: 100,
     // cutoutPercentage: 70,
     borderRadius: 50,
     // outerStart: 70,
